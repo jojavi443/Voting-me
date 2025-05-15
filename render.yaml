@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: phishing-sim
+    env: php
+    plan: free
+    repo: https://github.com/YOUR-USERNAME/YOUR-REPO
+    branch: main
