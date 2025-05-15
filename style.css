@@ -1,36 +1,30 @@
 body {
-  background: #fafafa;
+  background-color: #fafafa;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.container {
-  max-width: 300px;
-  margin: 100px auto;
-  padding: 20px;
+.login-box {
   background: white;
+  padding: 40px;
   border: 1px solid #dbdbdb;
   text-align: center;
-}
-.logo {
-  width: 180px;
-  margin-bottom: 20px;
+  width: 300px;
 }
 input {
-  display: block;
   width: 90%;
-  margin: 10px auto;
   padding: 10px;
-  border: 1px solid #ccc;
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
 }
 button {
-  background: #3897f0;
+  background-color: #3897f0;
   color: white;
-  border: none;
   padding: 10px;
+  border: none;
+  border-radius: 3px;
   width: 95%;
-  font-weight: bold;
-}
-.footer {
-  margin-top: 15px;
-  color: #999;
-  font-size: 14px;
 }
