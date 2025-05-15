@@ -1,7 +1,10 @@
 services:
   - type: web
     name: phishing-sim
-    env: php
+    env: docker
     plan: free
-    repo: https://github.com/YOUR-USERNAME/YOUR-REPO
-    branch: main
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:10000
+    envVars:
+      - key: PORT
+        value: 10000
